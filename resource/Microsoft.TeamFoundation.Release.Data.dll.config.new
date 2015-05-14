@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+      <section name="Microsoft.TeamFoundation.Release.Data.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+    </sectionGroup>
+  </configSections>
+  <!-- Application Settings Configuration -->
+  <applicationSettings>
+    <Microsoft.TeamFoundation.Release.Data.Properties.Settings>
+      <setting name="AllowUnrestrictedDeployerUpgrade" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="CacheItemExpiration" serializeAs="String">
+        <value>1</value>
+      </setting>
+      <setting name="EnableCentralizedLogging" serializeAs="String">
+        <value>False</value>
+      </setting>
+      <setting name="EventLogFilter" serializeAs="String">
+        <value>Information</value>
+      </setting>
+      <setting name="FlushEventLogFrequency" serializeAs="String">
+        <value>120</value>
+      </setting>
+      <setting name="FlushEventLogPausePeriod" serializeAs="String">
+        <value>300</value>
+      </setting>
+      <setting name="MaxFlushEventLogFailCountBeforePause" serializeAs="String">
+        <value>10</value>
+      </setting>
+      <setting name="MaxReceivedMessageSize" serializeAs="String">
+        <value>10067108864</value>
+      </setting>
+      <setting name="RequestServerLocation" serializeAs="String">
+        <value>True</value>
+      </setting>
+      <setting name="ActiveDirectoryServiceRef_ActiveDirectoryService"
+        serializeAs="String">
+        <value>http://dep-enrelease-prod-external.outintern.com:1000/ActiveDirectoryService.asmx</value>
+      </setting>
+      <setting name="ConfigurationServiceRef_ConfigurationService"
+        serializeAs="String">
+        <value>http://dep-enrelease-prod-external.outintern.com:1000/ConfigurationService.asmx</value>
+      </setting>
+      <setting name="DeploymentControllerServiceRef_DeploymentControllerService"
+        serializeAs="String">
+        <value>http://dep-enrelease-prod-external.outintern.com:1000/DeploymentControllerService.asmx</value>
+      </setting>
+      <setting name="FileTransferServiceRef_FileTransferService" serializeAs="String">
+        <value>http://dep-enrelease-prod-external.outintern.com:1000/FileTransferService.svc/mex</value>
+      </setting>
+      <setting name="ListProviderServiceRef_ListProviderService" serializeAs="String">
+        <value>http://dep-enrelease-prod-external.outintern.com:1000/ListProviderService.asmx</value>
+      </setting>
+      <setting name="NotificationServiceRef_NotificationService" serializeAs="String">
+        <value>http://dep-enrelease-prod-external.outintern.com:1000/NotificationService.asmx</value>
+      </setting>
+      <setting name="TfsServiceRef_TfsService" serializeAs="String">
+        <value>http://dep-enrelease-prod-external.outintern.com:1000/TfsService.asmx</value>
+      </setting>
+      <setting name="LoggerServiceRef_LoggerService" serializeAs="String">
+        <value>http://dep-enrelease-prod-external.outintern.com:1000/LoggerService.asmx</value>
+      </setting>
+      <setting name="UpdaterServiceRef_UpdaterService" serializeAs="String">
+        <value>http://dep-enrelease-prod-external.outintern.com:1000/UpdateService.asmx</value>
+      </setting>
+      <setting name="ApprovalRequestEmailLanding" serializeAs="String">
+        <value>http://dep-enrelease-prod-external.outintern.com:1000/ReleaseManagement</value>
+      </setting>
+    </Microsoft.TeamFoundation.Release.Data.Properties.Settings>
+  </applicationSettings>
+  <!-- Base Configuration -->
+  <startup>
+    <supportedRuntime version="v2.0.50727"/>
+  </startup>
+</configuration>
